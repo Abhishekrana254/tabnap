@@ -1,0 +1,15 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #1c1410; color: #fef3c7; width: 300px; }
+main { padding: 16px; }
+h1 { margin: 0; font-size: 1.2rem; }
+.tag { color: #a8a29e; font-size: 0.85rem; margin: 4px 0 16px; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+.stat { background: #292018; border-radius: 10px; padding: 12px; text-align: center; }
+.stat span { display: block; font-size: 1.5rem; font-weight: 700; color: #fbbf24; }
+.stat label { font-size: 0.7rem; color: #a8a29e; text-transform: uppercase; }
+.btn { width: 100%; border: none; border-radius: 10px; padding: 11px; font-weight: 600; cursor: pointer; margin-bottom: 8px; font-size: 0.9rem; }
+.primary { background: linear-gradient(135deg, #f59e0b, #d97706); color: #1c1410; }
+.secondary { background: #292018; color: #fef3c7; border: 1px solid #44403c; }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 0.8rem; margin: 14px 0; color: #d6d3d1; }
+.row input[type="number"] { width: 48px; background: #292018; border: 1px solid #44403c; color: #fff; border-radius: 6px; padding: 4px; }
+.status { font-size: 0.8rem; color: #34d399; min-height: 1.2em; }
+.footer { font-size: 0.72rem; color: #78716c; margin-top: 8px; }

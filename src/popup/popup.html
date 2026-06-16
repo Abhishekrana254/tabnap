@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TabNap</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main>
+    <h1>TabNap 😴</h1>
+    <p class="tag">Free RAM · Faster Chrome</p>
+
+    <div class="stats-grid">
+      <div class="stat"><span id="activeCount">-</span><label>Active</label></div>
+      <div class="stat"><span id="sleepCount">-</span><label>Sleeping</label></div>
+    </div>
+
+    <button id="napAll" class="btn primary">Nap all other tabs</button>
+    <button id="wakeAll" class="btn secondary">Wake all tabs</button>
+
+    <label class="row">
+      <input type="checkbox" id="autoEnabled" checked />
+      Auto-nap after <input type="number" id="autoMins" min="5" max="120" value="30" /> min
+    </label>
+
+    <p id="status" class="status"></p>
+    <p class="footer">Pinned &amp; playing tabs are never napped</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
